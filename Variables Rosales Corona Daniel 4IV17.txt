@@ -1,0 +1,44 @@
+main()
+{
+    CONSTANTES. Son aquellas espacios en memoria que guardan algo y nunca cambia.
+        Pi = 3.14;
+        PRIMER_PRESIDENTE_DE_MÉXICO = "GUADALUPE VICTORIA";     TIPO CADENA
+        VOLTAJE_DE_CASA_MX = 120;                               TIPO NUMÉRICO
+        GRAVEDAD = 9.81;                                        TIPO NÚMERICO
+        VELOCIDAD_DE_LA_LUZ = 300000;                           TIPO NUMÉRICO
+        MAYORIA_DE_EDAD = 18;                                   TIPO NUMÉRICO
+        NUMERO DE MESES = 12,                                   TIPO NUMERIOO
+        PRIMER MES DEL AÑO= "ENERO"    ;                         TIPO CADENA
+        HORAS POR DIA= 12;                                       TIPO NUMERICO 
+                          
+    VARIABLES. Son espacios en memoria que guardan un valor pero este puede cambiar durante la ejecución del programa.
+        EDAD   = 17;                                             TIPO NUMÉRICO
+        NOMBRE = "CESAR MÉNDEZ II";                               TIPO CADENA
+        TELÉFONO = "5557105865";                                  TIPO CADENA
+        TELÉFONO_MENSAJE = 5557105865;        
+        Pais de residencia= "Mexico"                              TIPO CADENA
+        Dia de nacimiento= "6"                                    TIPO NUMERICO  
+        NUMERO DE CASA "113"                                     TIPO NUMERICO  
+        MES DE NACIMIENTO0 "AGOSTO"                              TIPO CADENA                                                  
+
+        printf(GRAVEDAD);     //Este comando hace que aparecezca en pantalla el valor 9.81 //
+        printf ("GRAVEDAD");  //Este comando hace que aparecezca en pantalla la palabra GRAVEDAD //
+
+        printf (GRAVEDAD + 1);    //Este comando hace que aparecezca en pantalla el valor 10.81 //
+        printf ("GRAVEDAD" + 1);  //Este comando marca error //
+
+        printf (TELEFONO)           //Aparece el CONTENIDO de la variable TELEFONO //
+        printt ("TELÉFONO" )        //Apacere en pantalla la palabra TELÉFONO //
+        printf (TELÉFONO_MENSAJE)   //Aparece el CONTENIDO de la variable TELEFONO_MENSAJE //
+        printf (TELÉFONO_MENSAJE +1 )   //Aparece el CONTENIDO de la variable TELEFONO_MENSAJE + 1 // 5557105866
+
+        printf(EDAD-7);              // en pantalla 10
+        printf(EDAD+1-3);            // en pantalla 15
+        printf(EDAD*2);             // 34
+        printf(EDAD/2);             //8.5
+        printf(EDAD^3);             //4913
+
+        printf((EDAD+1) * GRAVEDAD) //176.5
+        printf((VOLTAJE_DE_CASA_MX*EDAD) - (MAYORIA_DE_EDAD-EDAD))  // 2039
+                             2040        -   1
+}

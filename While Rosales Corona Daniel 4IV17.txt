@@ -1,0 +1,11 @@
+main()
+(
+    i=1 // iniciando una variable con un valor//
+    x=1;
+    DO
+    (
+        PRINFT(X)
+        X++;
+    ) WHILEIL (X=101);
+    PRINFT ("ADIOS");
+)
