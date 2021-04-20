@@ -1,0 +1,11 @@
+ain()
+(
+    FOR (X=1)¿Que tabla deseas? // iniciando una variable con un valor//
+    x=1;
+    DO
+    (
+        PRINFT(X)
+        X++;
+    FOR (X=101);
+    PRINFT ("ADIOS");
+)
